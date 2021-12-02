@@ -93,9 +93,6 @@ class OtherMethods:
                                      article_year=article_year, article_title=article_title, publisher=publisher,
                                      website_url=website_url, accessed_date=accessed_date)
 
-        # my_new_reference = Reference(authors_initials, author_last_name, article_year, article_title,
-        #                              publisher, website_url, accessed_date)
-
         reference = my_new_reference.create_reference(my_new_reference)
         citation = my_new_reference.create_citation(my_new_reference)
 
